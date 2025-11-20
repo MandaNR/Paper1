@@ -1,0 +1,46 @@
+# French version files
+version_fr.tex
+version_fr_sections.tex
+version_fr.pdf
+version_fr.aux
+version_fr.fdb_latexmk
+version_fr.fls
+version_fr.log
+version_fr.out
+version_fr.synctex.gz
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# macOS
+.DS_Store
+.!*
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.doc
+*.docx
+~$*
+
+# Exclude everything in parent directories
+../*
+!../
