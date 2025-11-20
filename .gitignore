@@ -16,7 +16,9 @@ version_fr.synctex.gz
 *.log
 *.out
 *.synctex.gz
-*.pdf
+
+# PDFs - exclude build artifacts but keep root.pdf
+!root.pdf
 
 # Python
 __pycache__/
